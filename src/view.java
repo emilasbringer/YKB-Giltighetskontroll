@@ -12,6 +12,7 @@ public class view {
     private JButton laddaButton;
     private JTextField personTelTextField;
     private JTextField företagTelTextField;
+    private JButton YKBDatumButton;
 
 
     public JPanel getPanel() {
@@ -28,6 +29,11 @@ public class view {
     }
     public JTextField getNamnTextField() {
         return namnTextField;
+    }
+
+
+    public JButton getYKBDatumButton() {
+        return YKBDatumButton;
     }
 
     public JScrollPane getScrollPane() {
