@@ -14,7 +14,7 @@ public class model {
 
     public model() {
         personArrayList = new ArrayList<>();
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < 600; i++) {
             addPersonToArrayList("Person" + i, "070" + randomNumber(100000,999999),"Företag" + randomNumber(1,5),"54 243 423", randomNumber(2017, 2022) +"-0"+randomNumber(1,9)+"-"+randomNumber(10,28), randomNumber(2017, 2022) +"-0"+randomNumber(1,9)+"-"+randomNumber(10,28),randomNumber(2017, 2022) +"-0"+randomNumber(1,9)+"-"+randomNumber(10,28),randomNumber(2017, 2022) +"-0"+randomNumber(1,9)+"-"+randomNumber(10,28),randomNumber(2017, 2022) +"-0"+randomNumber(1,9)+"-"+randomNumber(10,28),randomNumber(2017, 2022) +"-0"+randomNumber(1,9)+"-"+randomNumber(10,28));
         }
         initizializeViewList();

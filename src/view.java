@@ -13,13 +13,11 @@ public class view {
     private JTextField personTelTextField;
     private JTextField företagTelTextField;
     private JButton YKBDatumButton;
+    private JButton redigeraFöretagButton;
 
 
     public JPanel getPanel() {
         return panel;
-    }
-    public JButton getLäggTillButton() {
-        return läggTillButton;
     }
     public JCheckBox getGiltigYKBCheckBox() {
         return giltigYKBCheckBox;
@@ -31,10 +29,17 @@ public class view {
         return namnTextField;
     }
 
+    public JButton getLäggTillButton() {return läggTillButton;}
 
-    public JButton getYKBDatumButton() {
-        return YKBDatumButton;
+    public JButton getLaddaButton() {
+        return laddaButton;
     }
+
+    public JButton getSparaButton() {
+        return sparaButton;
+    }
+
+    public JButton getYKBDatumButton() {return YKBDatumButton;}
 
     public JScrollPane getScrollPane() {
         return scrollPane;
